@@ -7,31 +7,41 @@ header{
    width: auto;
    background-image: url("./img/483Z5.png");
 }
-.logo {
+.enjoy { /*formatos del titulo*/
+   font-family: Sunny Spells; 
+   font-size: 70px;
+   font-style:normal; 
+   color: #21f10e ;
+   text-shadow: 2px -4px #000000;
+   
+}
+.logo { /*formatos del logo*/
    width: auto;
-   height: 138px;
+   height: 178px;
    padding: 20px;
    margin-left: 50px;
    flex-shrink: 3;
 }
-.menu{
+.menu{ /*formatos del menu de navegación*/
    display: flex;
    justify-content:space-around;
 }
 .empresa {
-   width: 398px;
-   height: 70px;
-   padding: 20px;
+   width: 897px;
+   height: 198px;
+   padding: 10px;
    margin-top: 50px;
+   justify-content: flex-start;
+   align-content: flex-start;
    flex-shrink: 3;
 }
-.enlaces{
+.enlaces{ /*formatos del menu de navegación*/
    display: flex;
    justify-content: center;
    padding: 10px;
    background: none;
 }
-.enlacesmenu{
+.enlacesmenu{ /*formatos del texto del menu de navegación*/
    text-decoration: none;
    justify-content:space-evenly;
    padding: 30px;
@@ -46,32 +56,32 @@ header{
    padding-top: 40px;
    padding-left: 20px;
 }
-.iconos{
+.iconos{ /*formatos de los iconos lupa, carito de la compra y regreso a la pagina anterior*/
    display: flex;
    justify-content: flex-end;
    padding: 3px;
    background: none;
    padding-left: 10px;
 }
-.titulo{
+.titulo{ /*formatos de los subtitulos*/
    font-family: 'Lobster', cursive;
    font-style: normal;
    font-weight: normal;
    font-size: 35px;
    line-height: 50px;
-   color: #7bf14d;
+   color: #f4f7f3;
    -webkit-text-stroke: 1px black;
    text-transform: uppercase;
    width: auto;
    height: 50px;
-   background: linear-gradient(90deg, #f81735 0%, #ee2493 50%, #eef114 100%);
+   background: linear-gradient(90deg, #f81735 0%, #24a4ee 50%, #eef114 100%);
    border: 1px solid #000000;
    box-sizing: border-box;
    border-radius: 50px;
    text-align: center;
    margin-left: 8px;
 }
-.nuestrahistoria{
+.nuestrahistoria{ /*formatos de los textos*/
    text-align: center;
    font-size: 20px;
    line-height: 35px;
@@ -79,7 +89,7 @@ header{
    margin-left: 125px;
    margin-right: 125px;
 }
-.seccionproducto {
+.seccionproducto { 
    display:flex;
    flex-wrap: wrap;
    flex-shrink: 5;
